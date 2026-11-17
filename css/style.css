@@ -39,6 +39,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .swatch[data-theme-set="blush"] { background: var(--swatch-blush); }
 .swatch[data-theme-set="dark"] { background: var(--swatch-dark); }
 .swatch[data-theme-set="lavender"] { background: var(--swatch-lavender); }
+.swatch[data-theme-set="warm"] { background: #bf6848; }
 .swatch:hover { transform: scale(1.15); }
 .swatch[aria-pressed="true"] { box-shadow: 0 0 0 3px var(--color-primary-light); }
 

@@ -98,3 +98,25 @@
   --family-text: #5b2f4d;
   --family-accent: #c2559b;
 }
+
+/* Theme: Warm Tones */
+:root[data-theme="warm"] {
+  --color-primary: #a65a3a;
+  --color-primary-light: #d99567;
+  --color-primary-dark: #653b2b;
+  --color-bg: #fff8ef;
+  --color-bg-secondary: #f5e5d2;
+  --color-bg-card: #fffdf8;
+  --color-text: #493326;
+  --color-text-secondary: #80634f;
+  --color-text-inverse: #fffaf4;
+  --color-accent: #bf6848;
+  --color-border: #e8cbb1;
+  --color-shadow: rgba(101, 59, 43, 0.16);
+  --color-overlay: rgba(65, 40, 29, 0.82);
+  --gradient-hero: linear-gradient(135deg, #653b2b, #a65a3a 60%, #d99567);
+  --family-bg: #f8e8d8;
+  --family-card: #fff8ef;
+  --family-text: #654332;
+  --family-accent: #bd704e;
+}

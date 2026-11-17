@@ -111,7 +111,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Theme switcher: sets data-theme on <html>; the variables live in css/theme.css
   const themeButtons = document.querySelectorAll('[data-theme-set]');
-  const themes = ['blush', 'dark', 'lavender'];
+ const themes = ['blush', 'dark', 'lavender', 'warm'];
   const applyTheme = (name) => {
     document.documentElement.dataset.theme = name;
     themeButtons.forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.themeSet === name)));
