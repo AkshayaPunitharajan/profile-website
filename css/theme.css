@@ -1,0 +1,100 @@
+/* THE ONE THEME FILE: variables only. Change values here to re-theme the whole site.
+   Default theme: Blush & Orchid. Extra themes below are picked by the switcher in the nav
+   (they set data-theme on <html>). */
+:root {
+  /* Primary Colors */
+  --color-primary: #b83280;
+  --color-primary-light: #e879b9;
+  --color-primary-dark: #6b1d4a;
+
+  /* Background Colors */
+  --color-bg: #fff7fa;
+  --color-bg-secondary: #ffeaf2;
+  --color-bg-card: #ffffff;
+
+  /* Text Colors */
+  --color-text: #4a2040;
+  --color-text-secondary: #8a5a78;
+  --color-text-inverse: #ffffff;
+
+  /* Accent & Borders */
+  --color-accent: #d6336c;
+  --color-border: #f6cfe0;
+  --color-shadow: rgba(184, 50, 128, 0.18);
+  --color-overlay: rgba(74, 32, 64, 0.85);
+
+  /* Hero background */
+  --gradient-hero: linear-gradient(135deg, var(--color-primary-dark), var(--color-primary) 60%, var(--color-primary-light));
+
+  /* Family section warm sub-palette (applied via #family in style.css) */
+  --family-bg: #fff0e8;
+  --family-card: #fffaf6;
+  --family-text: #6b3340;
+  --family-accent: #d9667a;
+
+  /* Theme switcher dots (same in every theme) */
+  --swatch-blush: #f78fb9;
+  --swatch-dark: #2a1a35;
+  --swatch-lavender: #a98be0;
+
+  /* Typography */
+  --font-primary: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --font-heading: 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+  --font-size-base: 16px;
+  --font-size-h1: 2.5rem;
+  --font-size-h2: 2rem;
+
+  /* Spacing */
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 4rem;
+
+  /* Layout */
+  --max-width: 1200px;
+  --border-radius: 18px;
+  --transition-speed: 0.3s;
+}
+
+/* Theme: Midnight Plum (dark) */
+:root[data-theme="dark"] {
+  --color-primary: #ff8cc6;
+  --color-primary-light: #c0488f;
+  --color-primary-dark: #14091c;
+  --color-bg: #1f1226;
+  --color-bg-secondary: #2a1a35;
+  --color-bg-card: #34203f;
+  --color-text: #f7e8f1;
+  --color-text-secondary: #cbaac1;
+  --color-text-inverse: #ffffff;
+  --color-accent: #e8508f;
+  --color-border: #4d2c5c;
+  --color-shadow: rgba(0, 0, 0, 0.45);
+  --color-overlay: rgba(10, 4, 16, 0.88);
+  --gradient-hero: linear-gradient(135deg, #14091c, #3a1546 55%, #7a2a6b);
+  --family-bg: #2b1722;
+  --family-card: #3a2030;
+  --family-text: #ffe3d6;
+  --family-accent: #e5677f;
+}
+
+/* Theme: Lavender Dream */
+:root[data-theme="lavender"] {
+  --color-primary: #6d4aa6;
+  --color-primary-light: #a98be0;
+  --color-primary-dark: #3b2468;
+  --color-bg: #faf7ff;
+  --color-bg-secondary: #efe8ff;
+  --color-bg-card: #ffffff;
+  --color-text: #35264f;
+  --color-text-secondary: #75689a;
+  --color-text-inverse: #ffffff;
+  --color-accent: #7c4dff;
+  --color-border: #ddd2f5;
+  --color-shadow: rgba(109, 74, 166, 0.2);
+  --color-overlay: rgba(53, 38, 79, 0.88);
+  --family-bg: #fff0f5;
+  --family-card: #fffafc;
+  --family-text: #5b2f4d;
+  --family-accent: #c2559b;
+}
